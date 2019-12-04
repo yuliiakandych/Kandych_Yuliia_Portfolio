@@ -1,0 +1,17 @@
+//sass --watch sass:public/css --style compressed
+@import "modules/_navbar";
+@import "vars";
+@import "modules/_footer";
+@import "modules/_errors";
+
+body
+{
+ background-color: white;
+ margin: auto;
+}
+
+header
+{
+ background: url(../images/Mobile_hero.jpg) no-repeat center; 
+ background-size: cover;  
+}
