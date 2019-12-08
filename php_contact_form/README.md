@@ -3,9 +3,7 @@ This is the Docker environment set up for PHP contact form
 
 
 #### Prerequisites
-1. Install `Docker` from [https://docs.docker.com/install/] 
-2. IF you are in Linux, install `docker-compose` from [https://docs.docker.com/install/]
-
+Install `Docker` from [https://docs.docker.com/install/] 
 
 #### Set up
 1. Clone the repo
