@@ -21,5 +21,4 @@ Install `Docker` from [https://docs.docker.com/install/] 
    ```
 
 #### URLs
-1. Your project is up in `http://localhost:8080` which is mapping to the `php_contact_form` folder
-2. The Mailhog is in `http://localhost:8025`
+1. Your project is up in `http://localhost:8080` 
