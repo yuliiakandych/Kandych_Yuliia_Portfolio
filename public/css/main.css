@@ -1,8 +1,2 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
+.hidden{display:none}body{background-color:lightblue;margin:auto}header{background:url(../images/Mobile_hero.jpg) no-repeat center;background-size:cover}
+/*# sourceMappingURL=main.css.map */
