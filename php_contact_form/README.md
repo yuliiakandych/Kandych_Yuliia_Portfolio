@@ -10,7 +10,7 @@ This is the Docker environment set up for PHP contact form
 #### Set up
 1. Clone the repo
    ```
-   git clone git@github.com:spiderPan/Fanshawe-IDP-Inclass.git
+   git clone git@github.com:/yuliiakandych/Kandych_Yuliia_Portfolio.git
    ```
 2. Open the folder and run docker-compose
    ```
