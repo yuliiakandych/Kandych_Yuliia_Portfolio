@@ -1,4 +1,4 @@
-#### PHP Contact Form Repo
+#### PHP Contact Form
 This is the Docker environment set up for PHP contact form
 
 
