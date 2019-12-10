@@ -1,12 +1,38 @@
-var express = require('express');
-var router = express.Router();
-var path = require('path');
+const express = require('express');
+const router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'Express' });
-  console.log('sent back a static file');
-  res.sendFile((path.join(__dirname, "../views/index.html")));
-});
+const sql = require('../utils/sql')
+
+router.get('/', (req,res)=>{
+    console.log("at the main route");
+   let query = "Select * from tbl_lightbox";
+   sql.query(query, (err,result)=>{
+       console.log("getting data")
+       if (err){
+           throw err;
+           console.log(err);
+       }
+       console.log("aaaa"+result);
+       res.render('home', {portfolio: result})
+   })
+})
+
+router.get('/users/:id', (req,res) =>{
+    console.log("popingup");
+    console.log(req.params.id)
+    let query = `Select * from tbl_lightbox where ID=${req.params.id} `;
+   sql.query(query, (err,result)=>{
+       console.log("getting data")
+       if (err){
+           throw err;
+           console.log(err);
+       }
+       console.log(result[0])
+       res.json(result[0])
+       
+
+})
+})
+
 
 module.exports = router;

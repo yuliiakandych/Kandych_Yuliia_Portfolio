@@ -1,0 +1,156 @@
+<div class="lightbox-wrapper hidden">
+  <span class="close-btn">X</span>
+    <div class="lightbox ">
+      <div class="hero-lightbox">
+        <img class="hero-img" src='' alt="hero">
+      </div>
+  
+
+    <div class="content-wrapper">
+    <h4 class="category"></h4>
+    <h5 class="tools"></h5>
+    <h3 class="title"></h3>
+    <p class="main-goal"></p>
+    <p class="authors"></p>
+    </div>
+  </div>
+</div>
+
+
+        <header>
+                <h2 class="hidden">Portfolio</h2>
+                <nav class="navigationBar">
+                  <h3 class="hidden">Main Navigation</h3>
+                  <a href="/"
+                    ><img class="logo" src="images/Logo.svg" alt="logo_yuliia_kandych"
+                  /></a>
+                  <div class="navBar desktop top">
+                    <ul>
+                      <li class="scrollTo">About</li>
+                      <li class="scrollTo">Latest Works</li>
+                      <li class="scrollTo">Get In Touch</li>
+                    </ul>
+                  </div>
+                  <div class="hamburgerMenu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </nav>
+                <nav class="navBar mobile">
+                  <h2 class="hidden">Main Navigation Mobile</h2>
+                  <ul>
+                        <li class="scrollTo">About</li>
+                        <li class="scrollTo">Latest Works</li>
+                        <li class="scrollTo">Get In Touch</li>
+                  </ul>
+                </nav>
+                 <div class="hero">
+                  <div>
+                    <h3 id="mainTitle">Welcome to my<br>little creative<br>world </h3>
+                </div>
+                </div>
+            </header>
+
+              <section class="container">
+                    <h2 class="hidden">Container</h2>
+                    <section class="aboutYuliia  About" id="aboutLink">
+                      <h3>About Me</h3>
+                      <div class="wrapper">
+                        <div class="description">
+                                <img id="yuliiaPic" src="images/JuliaMobile.png" alt="avatar">
+                          <p>
+                                Hello, my name is Yuliia Kandych. I am a web designer, graphics whiz, and UI/UX expert. I excel at bringing designs to life, love to paint. I have a passion for creating solutions that are both beautiful and meaningful. I find inspiration in travelling and meeting new people.
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+                
+
+                <section class="latestWorks">
+                        <h3>Latest Works</h3>
+                        <div class="portfolioPices">
+                          <div class="blurry_background"></div>
+                          <div class="bio-wrapper">
+                              <div class='portfolioPic'>
+                                {{#each portfolio}}
+                              <a class="works" href="{{id}}"><div  id="work1">
+                               
+                                    <img src="images/desktopPortfoloiPic/{{image}}" alt="pic1">
+                                    <h4>{{category}}</h4>
+                                     <h3>{{name}}</h3>
+                                
+
+                              </div></a>
+                              {{/each}}
+                              {{!-- <div class="works" id="work2">
+                                  <img src="images/tabletMobilePortfolioPic/ KijijAuto.jpg" alt="pic2">
+                              </div>
+                              <div class="works" id="work3">
+                                    <img src="images/tabletMobilePortfolioPic/TRAA.jpg" alt="pic3">
+                              </div>
+                              <div class="works" id="work4"><img src="images/tabletMobilePortfolioPic/TermoSecurity.jpg" alt="pic4"></div>
+                              <div class="works" id="work5"><img src="images/tabletMobilePortfolioPic/Pizza.jpg" alt="pic3"></div>
+                              <div class="works" id="work6"><img src="images/tabletMobilePortfolioPic/BioDreamers.jpg" alt="pic3"></div>
+                              <div class="works" id="work7"><img src="images/tabletMobilePortfolioPic/SportsNet.jpg" alt="pic5"></div>
+                              <div class="works" id="work8"><img src="images/tabletMobilePortfolioPic/KingLure.jpg" alt="pic3"></div>       --}}
+                            </div>
+                            <!-- <span>&times;</span> -->
+
+                            <!-- <img src="images" alt="portfolioPic" />
+                            <div class="info">
+                              <h4>name</h4>
+                              <p></p> -->
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section class="contact Contact" id="contactLink">
+                            <h3>Get In Touch</h3>
+                        
+                            <div class="contactForm">
+                              <section class="submission">
+                                
+                    
+                              <form>
+                                <div class="formColumn">
+                                  <input placeholder="Name" />
+                                  <input placeholder="Email" />
+                                </div>
+                                <textarea name="comments" placeholder="Comment"></textarea>
+                              </form>
+                              <div class="send button">Send Message</div>
+                            </div>
+                          </section>
+                        </section>
+
+
+    <footer>
+            <h2 class="hidden">Footer</h2>
+            <a href="index.html"
+              ><img class="logo" src="images/logo.svg" alt="logo"
+            /></a>
+            <div class="nav">
+              <div class="about subnav">
+                <h3 class="scrollTo">About</h3>
+                <ul>
+                  <li><a>Latest Works</a></li>
+                  <li><a>Get In Touch</a></li>
+                 
+                </ul>
+              </div>
+             
+            
+            <p>Copyright (c) 2019 Yuliia Kandych</p>
+          </footer>
+
+
+
+    <script type="module" src="js/main.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/submission.js"></script>
+</body>
+</html>
