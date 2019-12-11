@@ -284,11 +284,7 @@ header
       
   }
 
-footer
-{
-    background:  #020241;
 
-}
 
 .lightbox-wrapper{
     width: 100vw;
@@ -321,10 +317,12 @@ footer
     }
 }
 
+
+
 .close-btn{
     font-size: 30px;
     position: absolute;
-    top: 20px;
+    top: -10px;
     right: 20px;
 }
 
@@ -365,10 +363,28 @@ footer
       background-size: cover;
       background-position: top;
     }
+
+    .description
+    {
+        
+        display: flex;
+        justify-content: space-around;
+        margin-left: 280px;
+        margin-right: 275px;
+        img{
+            padding-right: 30px;
+        }
+        
+
+    }
+
+
 }
 
 @media screen and (min-width: 1440px) {
     header{
         height: 1100px;
     }
+
+
 }
