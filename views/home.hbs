@@ -27,8 +27,8 @@
                   <div class="navBar desktop top">
                     <ul>
                       <li class="scrollTo">About</li>
-                      <li class="scrollTo">Latest Works</li>
-                      <li class="scrollTo">Get In Touch</li>
+                      <li class="scrollTo">Portfolio</li>
+                      <li class="scrollTo">Contact</li>
                     </ul>
                   </div>
                   <div class="hamburgerMenu">
@@ -41,8 +41,8 @@
                   <h2 class="hidden">Main Navigation Mobile</h2>
                   <ul>
                         <li class="scrollTo">About</li>
-                        <li class="scrollTo">Latest Works</li>
-                        <li class="scrollTo">Get In Touch</li>
+                        <li class="scrollTo">Portfolio</li>
+                        <li class="scrollTo">Contact</li>
                   </ul>
                 </nav>
                  <div class="hero">
@@ -65,20 +65,20 @@
                         </div>
                       </div>
                     </section>
-                
+               
 
-                <section class="latestWorks">
-                        <h3>Latest Works</h3>
+                <section class="Portfolio latestWorks">
+                        <h3 class="title2">Latest Works</h3>
                         <div class="portfolioPices">
-                          <div class="blurry_background"></div>
+                          
                           <div class="bio-wrapper">
                               <div class='portfolioPic'>
                                 {{#each portfolio}}
                               <a class="works" href="{{id}}"><div  id="work1">
                                
                                     <img src="images/desktopPortfoloiPic/{{image}}" alt="pic1">
-                                    <h4>{{category}}</h4>
-                                     <h3>{{name}}</h3>
+                                    <h4 class="category">{{category}}</h4>
+                                     <h3 class="name">{{name}}</h3>
                                 
 
                               </div></a>
@@ -150,8 +150,8 @@
                 {{!-- <p class="scrollTo">About</p> --}}
                 <ul>
                    <li><a class="scrollTo">About</a></li>
-                  <li><a class="scrollTo">Latest Works</a></li>
-                  <li><aclass="scrollTo">Get In Touch</a></li>
+                  <li><a class="scrollTo">Portfolio</a></li>
+                  <li><a class="scrollTo">Contact</a></li>
                  
                 </ul>
               </div>

@@ -4,7 +4,7 @@ footer {
     display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        position: relative;
+        //position: relative;
         align-items: center;
 
     .logo {
@@ -13,20 +13,14 @@ footer {
       position: relative;
    align-items: flex-start;
     }
-    p {
-        font-family: century-gothic, sans-serif;
-        font-size: 12px;
-        padding: 0px 35px 10px 35px;
-        text-align: center;
-        line-height: 35px;
-        color: white;
-    }
+    
     .social {
-        margin: 20px 0;
+        //margin: 20px 0;
         display: flex;
+        //text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 30px;
+        //margin: 30px;
         img {
           width: 40px;
           height: 40px;
@@ -40,11 +34,13 @@ footer {
         }
        
       }
+      
     
     
   
     
   }
+  
   
   @media screen and (min-width: 768px) {
     footer {

@@ -5,8 +5,16 @@ const sql = require('../utils/sql')
 
 router.get('/', (req,res)=>{
     console.log("at the main route");
+    connect.getConnection((err, connection) => {
+      if (err){
+        return 
+        console.log(error.message);
+    }
+
+   
    let query = "Select * from tbl_lightbox";
    sql.query(query, (err,result)=>{
+     connection.release();
        console.log("getting data")
        if (err){
            throw err;
@@ -14,7 +22,8 @@ router.get('/', (req,res)=>{
        }
        console.log("aaaa"+result);
        res.render('home', {portfolio: result})
-   })
+   });
+  });
 })
 
 router.get('/users/:id', (req,res) =>{

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app"
+    "start": "node app"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -12,8 +12,8 @@
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "mysql": "^2.17.1",
-    "nodemon": "^2.0.1"
+    "mysql": "^2.17.1"
+    
   },
   "devDependencies": {
     "gulp": "^4.0.2",
