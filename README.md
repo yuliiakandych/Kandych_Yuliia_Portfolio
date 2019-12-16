@@ -2,6 +2,9 @@
 
 [Welcome to my little creative world!](https://kandych-yuliia-portfolio.herokuapp.com/)
 
+![hero_img](/public/images/heroimg.png)
+
+
  You can find my website [here](https://kandych-yuliia-portfolio.herokuapp.com/)
 
 
