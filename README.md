@@ -31,3 +31,9 @@
 ## Author 
 * **Julia Kandych**
 
+## Future Plans
+* Fix bugs with database
+* Add Nodemailer and Security
+
+
+
