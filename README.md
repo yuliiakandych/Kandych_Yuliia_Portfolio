@@ -1,9 +1,7 @@
 # Kandych_Yuliia_Portfolio
+[Welcome to my little creative world!](https://kandych-yuliia-portfolio.herokuapp.com/)
+ You find my website [here](https://kandych-yuliia-portfolio.herokuapp.com/)
 
-
-Welcome To My Little Creative  
-
-https://kandych-yuliia-portfolio.herokuapp.com/
 
 ## Build with
 * **HTML5**
